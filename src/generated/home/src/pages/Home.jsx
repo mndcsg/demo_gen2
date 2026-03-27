@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   // Hero section image URLs
-  const heroImage = '/image/home-0.png';
-  const whyUsImage = '/image/home-1.png';
-  const techImage = '/image/home-2.png';
+  const heroImage = './image/home-0.png';
+  const whyUsImage = './image/home-1.png';
+  const techImage = './image/home-2.png';
   const eduImages = [
-    '/image/home-3.png',
-    '/image/home-4.png',
-    '/image/home-5.png'
+    './image/home-3.png',
+    './image/home-4.png',
+    './image/home-5.png'
   ];
-  const ctaPattern = '/image/home-6.png';
+  const ctaPattern = './image/home-6.png';
 
   return (
     <div className="min-h-screen bg-white">

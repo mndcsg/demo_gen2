@@ -135,7 +135,7 @@ export function PrestamosPersonalesPage() {
                 <img 
                   alt="Asesoría de préstamos personales" 
                   className="w-full h-96 object-cover object-top rounded-2xl" 
-                  src="/image/prestamos-personales-0.png"
+                  src="./image/prestamos-personales-0.png"
                 />
               </div>
             </div>

@@ -8,7 +8,7 @@ const ProgramsSection = () => {
       value: '15,000+',
       valueLabel: 'personas beneficiadas',
       icon: 'ri-graduation-cap-line',
-      image: '/image/responsabilidad-social-1.png',
+      image: './image/responsabilidad-social-1.png',
     },
     {
       title: 'Apoyo a Microempresarios',
@@ -16,7 +16,7 @@ const ProgramsSection = () => {
       value: '3,200+',
       valueLabel: 'microempresas apoyadas',
       icon: 'ri-seedling-line',
-      image: '/image/responsabilidad-social-2.png',
+      image: './image/responsabilidad-social-2.png',
     },
     {
       title: 'Bienestar Financiero Familiar',
@@ -24,7 +24,7 @@ const ProgramsSection = () => {
       value: '8,500+',
       valueLabel: 'familias asesoradas',
       icon: 'ri-heart-pulse-line',
-      image: '/image/responsabilidad-social-3.png',
+      image: './image/responsabilidad-social-3.png',
     },
     {
       title: 'Desarrollo de Infraestructura Local',
@@ -32,7 +32,7 @@ const ProgramsSection = () => {
       value: '12',
       valueLabel: 'proyectos completados',
       icon: 'ri-building-community-line',
-      image: '/image/responsabilidad-social-4.png',
+      image: './image/responsabilidad-social-4.png',
     },
   ];
 

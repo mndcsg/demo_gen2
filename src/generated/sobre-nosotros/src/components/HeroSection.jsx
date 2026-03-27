@@ -7,7 +7,7 @@ export const HeroSection = () => {
         <img 
           alt="Ciudad de México" 
           className="w-full h-full object-cover object-top opacity-20" 
-          src="/image/sobre-nosotros-0.png"
+          src="./image/sobre-nosotros-0.png"
         />
       </div>
       <div className="relative z-10 max-w-screen-xl mx-auto px-6 lg:px-10">

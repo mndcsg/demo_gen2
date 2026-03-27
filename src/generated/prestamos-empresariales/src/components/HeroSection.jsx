@@ -6,7 +6,7 @@ export const HeroSection = () => {
         <img 
           alt="Soluciones para empresas" 
           className="w-full h-full object-cover object-top" 
-          src="/image/prestamos-empresariales-0.png" 
+          src="./image/prestamos-empresariales-0.png" 
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d1f17]/95 via-[#0d1f17]/80 to-transparent"></div>
       </div>

@@ -7,7 +7,7 @@ const HeroSection = () => {
         <img 
           alt="Responsabilidad social GUELT" 
           className="w-full h-96 lg:h-[500px] object-cover object-top" 
-          src="/image/responsabilidad-social-0.png" 
+          src="./image/responsabilidad-social-0.png" 
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0d1f17]/90 via-[#0d1f17]/40 to-transparent"></div>
         <div className="absolute bottom-0 left-0 p-10 lg:p-14">

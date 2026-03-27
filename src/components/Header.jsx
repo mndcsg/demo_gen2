@@ -126,7 +126,7 @@ const mobileNav = [
         <div className="flex justify-center">
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-12 h-12 flex items-center justify-center  rounded-sm group-hover:bg-[#3D8A6F] transition-colors">
-              <img src="/logo.png" alt="Guelt logo" className="w-12 h-12 object-contain" />
+              <img src="./logo.png" alt="Guelt logo" className="w-12 h-12 object-contain" />
             </div>
             <span className="font-bold text-white text-base tracking-wide leading-none" style={{ fontFamily: "\"Playfair Display\", serif" }}>
               Guelt, S.A. de C.V., SOFOM, E.N.R.
@@ -148,7 +148,7 @@ const mobileNav = [
       <div className="lg:hidden flex items-center justify-between px-5 h-16">
         <Link to="/" className="flex items-center gap-2">
           <div className="w-8 h-8 flex items-center justify-center rounded-sm">
-            <img src="/logo.png" alt="Guelt logo" className="w-6 h-6 object-contain" />
+            <img src="./logo.png" alt="Guelt logo" className="w-6 h-6 object-contain" />
           </div>
           <span className="font-bold text-white text-base tracking-wider" style={{ fontFamily: "\"Playfair Display\", serif" }}>
           Guelt, S.A. de C.V., SOFOM, E.N.R.

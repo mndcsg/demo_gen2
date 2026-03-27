@@ -32,7 +32,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-5">
             <div className="w-16 h-16 flex items-center justify-center  rounded-sm group-hover:bg-[#3D8A6F] transition-colors">
-              <img src="/logo.png" alt="Guelt logo" className="w-16 h-16 object-contain" />
+              <img src="./logo.png" alt="Guelt logo" className="w-16 h-16 object-contain" />
             </div>
               <span className="font-bold text-white text-lg" style={{ fontFamily: "\"Playfair Display\", serif" }}>
               Guelt, S.A. de C.V., SOFOM, E.N.R. 
