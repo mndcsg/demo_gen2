@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-8 py-4 border border-white/40 hover:bg-white/10 text-white font-semibold rounded-md transition-colors whitespace-nowrap;
+  }
+  
+  .btn-outline {
+    @apply flex items-center gap-1.5 px-4 py-2 border border-[#2D6A4F] text-[#52B788] text-sm font-semibold rounded-sm hover:bg-[#2D6A4F] hover:text-white transition-all whitespace-nowrap tracking-wide;
+  }
+  
+  .btn-tag {
+    @apply px-5 py-2 rounded-full text-sm font-semibold transition-colors whitespace-nowrap cursor-pointer;
+  }
+  
+  .nav-link {
+    @apply px-3 py-2 text-sm font-medium transition-colors whitespace-nowrap tracking-wide text-gray-300 hover:text-white;
+  }
+  
+  .header-logo {
+    @apply font-bold text-white text-base tracking-wider;
+  }
+  
+  .header-logo-brand {
+    @apply text-[#52B788];
+  }
+  
+  .section-title {
+    @apply text-5xl lg:text-6xl font-bold text-[#1C1C1C] mb-6;
+  }
+  
+  .section-subtitle {
+    @apply text-gray-500 text-xl max-w-xl mx-auto leading-relaxed;
+  }
+  
+  .faq-item {
+    @apply bg-white rounded-xl overflow-hidden border border-gray-100;
+  }
+  
+  .faq-button {
+    @apply w-full flex items-center justify-between px-7 py-5 text-left hover:bg-[#F8F7F4] transition-colors cursor-pointer;
+  }
+  
+  .faq-question {
+    @apply font-semibold text-[#1C1C1C] text-base pr-4;
+  }
+  
+  .faq-icon {
+    @apply w-8 h-8 flex items-center justify-center rounded-full flex-shrink-0 transition-colors bg-gray-100;
+  }
+  
+  .faq-icon-open {
+    @apply bg-[#52B788] text-white;
+  }
+  
+  .footer-link {
+    @apply text-gray-400 text-sm hover:text-[#52B788] transition-colors;
+  }
+  
+  .social-icon {
+    @apply w-9 h-9 flex items-center justify-center rounded-full bg-white/10 hover:bg-[#2D6A4F] transition-colors cursor-pointer;
+  }
+}
